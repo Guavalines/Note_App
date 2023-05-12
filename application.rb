@@ -7,7 +7,8 @@ module Application
       puts "c) Delete"
       puts "d) Show All"
       puts "q) Quit"
-
+      print "Select: "
+      choice = gets.chomp
     end while choice != 'q'
   end
 end
