@@ -12,7 +12,8 @@ module Application
       choice = gets.chomp
 
       case choice
-      when 'a' then
+      when 'a' then menu.add
+      end
 
     end while choice != 'q'
   end
@@ -21,5 +22,10 @@ module Application
     def initialize
 
     end
+
+    def add
+
+    end
+
   end
 end
