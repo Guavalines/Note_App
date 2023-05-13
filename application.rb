@@ -1,5 +1,6 @@
 module Application
   def self.run
+    menu = Menu.new
     begin
       puts "Simple Note Application".center(50, "#")
       puts "a) Add"
@@ -9,6 +10,16 @@ module Application
       puts "q) Quit"
       print "Select: "
       choice = gets.chomp
+
+      case choice
+      when 'a' then
+
     end while choice != 'q'
+  end
+
+  class Menu
+    def initialize
+
+    end
   end
 end
