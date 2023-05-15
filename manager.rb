@@ -9,4 +9,8 @@ class Manager
     @database.store(note)
   end
 
+  def show_all
+    entries = @database.get_all
+  end
+
 end
