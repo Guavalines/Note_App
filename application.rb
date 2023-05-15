@@ -36,7 +36,7 @@ module Application
     end
 
     def show_all
-
+      @manager.show_all
     end
 
   end
