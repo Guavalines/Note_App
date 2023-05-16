@@ -17,6 +17,7 @@ module Application
 
       case choice
       when 'a' then menu.add
+      when 'b' then menu.edit
       when 'd' then menu.show_all
       end
 
@@ -37,6 +38,11 @@ module Application
 
     def show_all
       @manager.show_all
+    end
+
+    def edit
+      @manager.show_all
+      entries = @manager
     end
 
   end
