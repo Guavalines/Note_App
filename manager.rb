@@ -25,5 +25,9 @@ class Manager
     @database.get_all
   end
 
+  def delete(note)
+    @database.delete(note)
+  end
+
 
 end
