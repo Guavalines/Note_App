@@ -1,4 +1,4 @@
-# NOTE APP
+# 📝 NOTE APP
 ## Description
 This is a simple command-line-based note-taking app. It allows users to create, store, manage, and delete notes. 
 ## Features
